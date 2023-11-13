@@ -16,9 +16,12 @@
         <activity
             android:name=".NewGaspillageActivity"
             android:exported="false" />
-       <!-- <activity
+        <activity
+            android:name=".NewRecipeActivity"
+            android:exported="false" />
+      <activity
             android:name=".MainActivity3"
-            android:exported="false" />-->
+            android:exported="false" />
         <activity
             android:name=".NewRestaurantActivity"
             android:exported="false" />
@@ -26,7 +29,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
