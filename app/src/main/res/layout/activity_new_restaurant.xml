@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewRestaurantActivity">
+
+    <!-- Edit text for restaurant name -->
+    <EditText
+        android:id="@+id/idEdtRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Restaurant Name" />
+
+    <!-- Edit text for restaurant cuisine type -->
+    <EditText
+        android:id="@+id/idEdtRestaurantCuisineType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Cuisine Type" />
+
+    <!-- Edit text for restaurant address -->
+    <EditText
+        android:id="@+id/idEdtRestaurantAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Restaurant Address" />
+
+    <!-- Button for saving data to the Room database -->
+    <Button
+        android:id="@+id/idBtnSaveRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Save your restaurant"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,2 +1,0 @@
-# FoodExplorer
-#AndroidStudio
