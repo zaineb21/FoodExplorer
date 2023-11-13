@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddRecipeActivity">
+
+    <!--edit text for our course name-->
+    <EditText
+        android:id="@+id/idEdtRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Recipe Name" />
+
+    <!--edit text for our course description-->
+    <EditText
+        android:id="@+id/idEdtRecipeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Recipe Description" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtRecipeCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Recipe Category" />
+    <EditText
+        android:id="@+id/idEdtRecipeCaories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Recipe Calories" />
+    <!-- Button for saving data to Room database -->
+    <Button
+        android:id="@+id/btn_add_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Add Recipe"
+        android:textAllCaps="false" />
+
+</LinearLayout>
