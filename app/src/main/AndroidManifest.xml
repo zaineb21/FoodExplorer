@@ -14,12 +14,15 @@
         android:theme="@style/Theme.CRUDRoom"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".NewGaspillageActivity"
             android:exported="false" />
         <activity
             android:name=".NewRecipeActivity"
             android:exported="false" />
-      <activity
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
@@ -29,7 +32,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,42 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--
-               <activity
-
-
-                   android:name=".NewRecipeActivity"
-                   android:exported="false" />
-
-                <activity
-                   android:name=".MainActivity"
-                   android:exported="true">
-                   <intent-filter>
-                       <action android:name="android.intent.action.MAIN" />
-
-                       <category android:name="android.intent.category.LAUNCHER" />
-                   </intent-filter>
-               </activity>
-
-        <activity
-                   android:name=".MainActivity"
-                   android:exported="true">
-                   <intent-filter>
-                       <action android:name="android.intent.action.MAIN" />
-
-                       <category android:name="android.intent.category.LAUNCHER" />
-                   </intent-filter>
-               </activity>
-
-               <activity
-                   android:name=".MainActivity2"
-                   android:exported="true">
-                   <intent-filter>
-                       <action android:name="android.intent.action.MAIN" />
-
-                       <category android:name="android.intent.category.LAUNCHER" />
-                   </intent-filter>
-               </activity>-->
     </application>
 
 </manifest>

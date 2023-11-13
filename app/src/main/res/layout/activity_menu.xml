@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnActivity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurants"
+        android:gravity="center"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:id="@+id/btnActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recipies"
+        android:gravity="center"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:id="@+id/btnActivity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wastes"
+        android:gravity="center"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:typeface="serif"
+/>
+    <Button
+        android:id="@+id/btnActivity4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events"
+        android:gravity="center"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:typeface="serif"
+        />
+</GridLayout>
