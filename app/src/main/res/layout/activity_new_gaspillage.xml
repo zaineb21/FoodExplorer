@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewGaspillageActivity">
+
+    <!--edit text for our course name-->
+    <EditText
+        android:id="@+id/idEdtTypeGasp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Waste Type" />
+
+    <!--edit text for our course description-->
+    <EditText
+        android:id="@+id/idEdtQuantite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Quantity" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Location" />
+
+    <!--button for saving data to room database-->
+    <Button
+        android:id="@+id/idBtnSaveGasp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Save Waste"
+        android:textAllCaps="false" />
+
+</LinearLayout>
