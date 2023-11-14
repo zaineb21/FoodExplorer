@@ -52,13 +52,13 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-       /* btnActivity4.setOnClickListener(new View.OnClickListener() {
+        btnActivity4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Lorsque le bouton 4 est cliqué, lancez l'Activity correspondante
-                Intent intent = new Intent(MenuActivity.this, Activity4.class);
+                Intent intent = new Intent(MenuActivity.this, MainActivity4.class);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 }
